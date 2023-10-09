@@ -1995,8 +1995,8 @@ responsive
   }
   .main-banner:after {
     /* display: none; */
-    background-image: url(../images/slider-left-dec.png);
-    /* background-image: url(../images/service-bg.jpg); */
+    /* background-image: url(../images/slider-left-dec.png); */
+    background-image: url(../images/about-bg.jpg);
   } 
   .main-banner .left-content h2 {
     color: #100e0e;
