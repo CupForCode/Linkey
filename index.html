@@ -11,12 +11,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
     <title>HeyLinkey</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+<script>
+  // JavaScript code for exporting data to Excel
+  document.getElementById('exportButton').addEventListener('click', function () {
+      const table = document.getElementById('data');
+      const wb = XLSX.utils.table_to_book(table, { sheet: "SheetJS" });
+      XLSX.writeFile(wb, 'Book1.xlsx');
+  });
+</script>
 <!--
 
 TemplateMo 570 Chain App Dev
@@ -183,7 +191,7 @@ https://templatemo.com/tm-570-chain-app-dev
               <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="row">
                   <div class="col-lg-12" style="font-family: Bradley Hand;">
-                    <h2>Comming soon</h2>
+                    <h2>Coming Soon</h2>
                     <p >We are cooking something amazing, get notified when it's <b>Live</b>. Stay Tuned!</p>
                   </div>
                   <div class="col-lg-12">
@@ -224,12 +232,12 @@ https://templatemo.com/tm-570-chain-app-dev
             <div class="row">
               <div  id="contact" class="col-lg-6 col-sm-7">
                 <fieldset>
-                  <input type="address" name="address" class="email" placeholder="Email Address..." autocomplete="on" required>
+                  <input type="address" id="data" name="address" class="email" placeholder="Email Address..." autocomplete="on" required>
                 </fieldset>
               </div>
               <div class="col-lg-6 col-sm-3">
                 <fieldset>
-                  <button type="submit" class="main-button">Subscribe Now <i class="fa fa-angle-right"></i></button>
+                  <button type="submit" class="main-button" id="exportButton">Subscribe Now <i class="fa fa-angle-right"></i></button>
                 </fieldset>
               </div>
             </div>
