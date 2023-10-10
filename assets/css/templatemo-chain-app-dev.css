@@ -1628,8 +1628,9 @@ footer #search input {
 footer #search button {
   height: 46px;
   border-radius: 23px;
-  border: 1px solid #fff;
-  background-color: transparent;
+  border: 1px solid #262424;
+  /* background-color: transparent; */
+  background-color: #1a1717;
   color: #fff;
   width: 100%;
   transition: all .5s;
@@ -2131,15 +2132,15 @@ responsive
   }
   footer #search input {
     border: 1px solid #eee;
-    color: #afafaf;
-    background-color: #fff;
+    color: #151414;
+    background-color: #d8eaf9;
     border-radius: 23px;
     margin-bottom: 15px;
     padding: 0px 30px;
   }
   footer #search button {
-    background-color: #fff;
-    color: #0a66ef;
+    background-color: #151515;
+    color: #efebeb;
   }
   footer #search input::placeholder { 
     color: #2a2a2a;
