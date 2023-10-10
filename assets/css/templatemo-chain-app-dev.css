@@ -124,7 +124,7 @@ ul {
 }
 
 p {
-  font-size: 19px;
+  font-size: 22px;
   line-height: 30px;
   font-weight: 300;
   color: #afafaf;
@@ -1606,6 +1606,8 @@ footer .section-heading h4 {
 
 footer #search {
   margin-bottom: 80px;
+  margin-left: 75px;
+  margin-right: 75px;
 }
 
 footer #search input::placeholder {
@@ -2006,7 +2008,9 @@ responsive
   .main-banner .left-content p {
     color: #141212;
     margin-right: 0;
-    font-size: 15px;
+    font-size: 20px;
+    text-align: center;
+    margin: 25px 25px;
   }
   .main-banner .left-content .white-button a {
     background-color: #151618;
@@ -2135,7 +2139,7 @@ responsive
   }
   footer #search button {
     background-color: #fff;
-    color: #4b8ef1;
+    color: #0a66ef;
   }
   footer #search input::placeholder { 
     color: #2a2a2a;
