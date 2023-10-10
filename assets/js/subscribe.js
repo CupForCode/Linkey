@@ -9,7 +9,7 @@ window.addEventListener("load", function() {
         body: data,
       })
       .then(() => {
-        alert("You've subscribed — check your inbox shortly for a message!");
+        alert("You are subscribed — thank you!");
       })
     });
   });
