@@ -206,7 +206,7 @@ body {
 
 .white-button a {
   display: inline-block !important;
-  padding: 10px 20px !important;
+  padding: 12px 35px !important;
   color: #4b8ef1 !important;
   text-transform: capitalize;
   font-size: 15px;
@@ -963,7 +963,7 @@ Banner Style
   background-color: #131415;
   color: #fff !important;
   font-size: 15px;
-  
+
 }
 
 /* 
